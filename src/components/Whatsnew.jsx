@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const Whatsnew = () => {
   return (
     <section id="WN" className="marginalize">
-        <h2 className="title-text">What's New</h2>
+        <h2 className="title-text mb-7 md:mb-14">What's New</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4 items-center">
           <motion.div
             className="flex justify-center"
