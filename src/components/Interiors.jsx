@@ -23,12 +23,12 @@ const inte = [
 export const Interiors = () => {
     return (
         <section id="explore" className="marginalize">
-           
+        
                 <div className="mb-7 md:mb-14">
                     <h2 className="title-text">Explore our room makeover services</h2>
-                    <p className="mx-auto text-gray-400 text-center text-[10px]  leading-5 md:text-lg mb-3">Get hassle-free project management and execution when it comes to building your dream home with a tailor-made service.</p>
+                    <p className="subtitle-text">Get hassle-free project management and execution when it comes to building your dream home with a tailor-made service.</p>
                 </div>
-                <div className="flex justify-center flex-col gap-6 md:justify-between items-center  px-0 lg:px-4 ">
+                <div className="flex justify-center flex-col gap-6 md:justify-between items-center ">
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 items-center">
                         {inte.map((inte) => (
                             <a href="#products">

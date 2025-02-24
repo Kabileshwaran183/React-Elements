@@ -47,13 +47,10 @@ export const Product = () => {
         ]
     };
     return (
-        <section className=" px-8 md:px-16  xl:mb-20 max-md:mt-8 max-md:text-base ">
-            <div className="   ">
-
-                <div className="   ">
-                    <h2 className="title-text font-bold  text-gray-600  mb-5">our top project</h2>
-                </div>
-
+        <section className=" marginalize">
+            <div className="mb-7 md:mb-14 ">
+                    <h2 className="title-text">our top project</h2>
+                    </div>
 
 
                 <Slider {...settings}>
@@ -80,7 +77,7 @@ export const Product = () => {
                     }
 
                 </Slider>
-            </div>
+            
 
 
         </section>

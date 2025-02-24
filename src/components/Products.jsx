@@ -31,14 +31,14 @@ const ProductSection = () => {
     };
 
     return (
-        <div id="products" className="px-8 md:px-16  xl:mb-20 max-md:mt-8 max-md:text-base">
+        <div id="products" className="marginalize">
             {!selectedProduct ? (
                 <>
-                    <div className="text-center mt-6">
-                        <h2 className="title-text md:text-2xl font-bold text-gray-700 text-center mb-2">
+                    <div className="mb-7 md:mb-14">
+                        <h2 className="title-text">
                             Our Products
                         </h2>
-                        <p className="mx-auto text-gray-400 text-[10px]  leading-5 md:text-lg text-center md:mb-10 mb-3">
+                        <p className="subtitle-text">
                             One stop solution for all you need to keep your living space intact.
                         </p>
                     </div>

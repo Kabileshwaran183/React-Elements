@@ -28,8 +28,10 @@ const WhatsApp = () => {
     };
 
     return (
-        <section className="px-8 md:px-16  xl:mb-20 max-md:mt-8 max-md:text-base mt-20 " id="whatapp">
-            <h2 className="text-center  title-text  md:text-2xl font-bold  text-gray-700 md:mb-5 mb-0   ">Get An Expert Advice</h2>
+        <section className="marginalize" id="whatapp">
+             <div className="mb-7 md:mb-14">
+            <h2 className=" title-text ">Get An Expert Advice</h2>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-6">
                 <div className="flex justify-center ">
                     <img src="/Untitled design (3).png" alt="" className=" rounded-lg  object-contain h-40 md:h-[90%] w-[90%]" />

@@ -33,6 +33,9 @@
 .title-text{
     @apply text-sm md:text-2xl mx-auto uppercase text-center font-bold text-gray-800
 }
+.subtitle-text{
+    @apply mx-auto text-gray-400 text-center text-[10px]  leading-5   md:text-lg   md:mb-16 mb-3
+}
 .description-text{
     @apply text-gray-600 text-[13px] lg:text-[15px] xl:text-[25px] 
 }

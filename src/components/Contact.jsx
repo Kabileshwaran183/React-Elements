@@ -7,8 +7,7 @@ import { BiPhoneCall, BiPhoneIncoming } from "react-icons/bi";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="px-8 md:px-16  xl:mb-20 max-md:mt-8 max-md:text-base ">
-      <div className="py-2 xl:px-8 md:px-16  xl:mb-20 max-md:mt-8 max-md:text-base ">
+    <section id="contact" className="marginalize">
         <motion.div
           className=""
           initial={{ scale: 1, opacity: 0 }}
@@ -16,10 +15,9 @@ export const Contact = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.3 }}
         >
-          <div className="md:mb-0 mb-4 mt-8 ">
+          <div className="mb-7 md:mb-14">
             <h2 className="title-text">Contact us</h2>
           </div>
-          <div className="">
 
             <div className="grid grid-cols-1 md:grid-cols-2     ">
 
@@ -61,17 +59,10 @@ export const Contact = () => {
                   alt="About Us"
                   className="w-full  rounded-lg  delay-400 object-center  mb-4 "
                 />
-
-
               </div>
-
-
             </div>
 
-          </div>
-
         </motion.div>
-      </div>
 
     </section>
 
