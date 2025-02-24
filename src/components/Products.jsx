@@ -100,7 +100,7 @@ const ProductSection = () => {
                     </motion.div>
                 </>
             ) : (
-                <div className="min-h-[550px] flex justify-center items-center backdrop-blur-xl py-8 sm:py-0">
+                <div className=" flex justify-center items-center backdrop-blur-xl py-8 sm:py-0">
                     <div>
                         <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                             <div className="flex md:justify-center sm:block">
